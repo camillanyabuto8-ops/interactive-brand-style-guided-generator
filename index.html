@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aura Design System - Style Guide</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Toast Notification for Clipboards -->
+    <div id="toast" class="toast">Copied to clipboard!</div>
+
+    <aside class="sidebar">
+        <h2>🌀 Aura UI</h2>
+        <nav>
+            <a href="#colors">Color Palette</a>
+            <a href="#typography">Typography</a>
+            <a href="#buttons">UI Components</a>
+        </nav>
+    </aside>
+
+    <main class="content">
+        <header>
+            <h1>Brand Style Guide</h1>
+            <p>System guidelines, design specs, and interactive utility tokens for the Aura digital experience.</p>
+        </header>
+
+        <!-- COLOR SECTION -->
+        <section id="colors">
+            <h2>01. Color Palette</h2>
+            <p class="subtitle">Click any color swatch box to instantly copy the exact HEX code token.</p>
+            <div class="color-grid">
+                <div class="color-card" data-hex="#6366f1">
+                    <div class="swatch" style="background-color: #6366f1;"></div>
+                    <div class="color-meta">
+                        <strong>Primary Indigo</strong>
+                        <span>#6366f1</span>
+                    </div>
+                </div>
+                <div class="color-card" data-hex="#ec4899">
+                    <div class="swatch" style="background-color: #ec4899;"></div>
+                    <div class="color-meta">
+                        <strong>Accent Pink</strong>
+                        <span>#ec4899</span>
+                    </div>
+                </div>
+                <div class="color-card" data-hex="#0f172a">
+                    <div class="swatch" style="background-color: #0f172a;"></div>
+                    <div class="color-meta">
+                        <strong>Deep Slate</strong>
+                        <span>#0f172a</span>
+                    </div>
+                </div>
+                <div class="color-card" data-hex="#f8fafc">
+                    <div class="swatch" style="background-color: #f8fafc; border: 1px solid #e2e8f0;"></div>
+                    <div class="color-meta">
+                        <strong>Ghost White</strong>
+                        <span>#f8fafc</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TYPOGRAPHY SECTION -->
+        <section id="typography">
+            <h2>02. Typography Scale</h2>
+            <p class="subtitle">Inter font family sizing structure hierarchy details.</p>
+            <div class="typo-box">
+                <div class="typo-row">
+                    <span class="label">Heading 1 (32px)</span>
+                    <h1>The quick brown fox jumps over the lazy dog.</h1>
+                </div>
+                <div class="typo-row">
+                    <span class="label">Heading 2 (24px)</span>
+                    <h2>The quick brown fox jumps over the lazy dog.</h2>
+                </div>
+                <div class="typo-row">
+                    <span class="label">Body Text (16px)</span>
+                    <p>The quick brown fox jumps over the lazy dog. Designers use clear body text sizes to make sure paragraphs are comfortable to read on small screens.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- BUTTONS SECTION -->
+        <section id="buttons">
+            <h2>03. Interactive Buttons</h2>
+            <p class="subtitle">Test hover states and dynamic micro-interactions inside the playground window.</p>
+            <div class="component-box">
+                <button class="btn btn-primary">Primary Solid</button>
+                <button class="btn btn-secondary">Secondary Outline</button>
+                <button class="btn btn-ghost">Minimal Ghost</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
